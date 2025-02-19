@@ -6,7 +6,7 @@ import google.generativeai as genai
 app = Flask(__name__)
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyB4l0hpYkq9iE77vj2yqxhkLO4uu75KbFQ")
+genai.configure(api_key="YOUR API KEY")
 model = genai.GenerativeModel("gemini-pro")
 
 # Load trained model and TF-IDF vectorizer for plagiarism detection
