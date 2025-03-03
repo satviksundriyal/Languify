@@ -101,7 +101,7 @@ pytz==2024.2
 PyYAML==6.0.2
 pyzmq==26.2.0
 referencing==0.35.1
-requests==2.32.3  # Kept only one version
+requests==2.32.3
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rpds-py==0.22.3
@@ -133,37 +133,20 @@ wcwidth==0.2.13
 webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
-gunicorn
-flask
-
-# Existing dependencies (keep these)
-absl-py==2.1.0
+gunicorn==21.2.0
 Flask==3.0.0
 Flask-Cors==5.0.0
 Flask-Login==0.6.3
 Flask-RESTful==0.3.10
 Flask-SQLAlchemy==3.1.1
-gunicorn==21.2.0
 google-generativeai==0.8.4
 google-api-python-client==2.161.0
 google-auth==2.38.0
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.0
 googleapis-common-protos==1.67.0
-python-dotenv==1.0.1
-
-# For Pickle & Machine Learning
-scikit-learn==1.5.1
-joblib==1.4.2
-pandas==2.1.4
-numpy==1.26.3
-scipy==1.14.0
-
-# For Text Processing & Translation
 textblob==0.19.0
 nltk==3.9.1
 deep-translator==1.11.4
-
-# Other Essentials
 protobuf==4.25.6
 Werkzeug==3.0.1
