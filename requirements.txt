@@ -101,7 +101,7 @@ pytz==2024.2
 PyYAML==6.0.2
 pyzmq==26.2.0
 referencing==0.35.1
-requests==2.32.3
+requests==2.32.3  # Kept only one version
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rpds-py==0.22.3
@@ -135,6 +135,7 @@ webencodings==0.5.1
 websocket-client==1.8.0
 gunicorn
 flask
+
 # Existing dependencies (keep these)
 absl-py==2.1.0
 Flask==3.0.0
@@ -150,7 +151,6 @@ google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.0
 googleapis-common-protos==1.67.0
 python-dotenv==1.0.1
-requests==2.31.0
 
 # For Pickle & Machine Learning
 scikit-learn==1.5.1
