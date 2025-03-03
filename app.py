@@ -9,7 +9,7 @@ app = Flask(__name__)
 load_dotenv()
 
 # Get the API key from the environment variable
-api_key = os.getenv("GEMINI_API_KEY")
+api_key = os.getenv("GEMINI_API_KEY")  
 model = genai.GenerativeModel("models/gemini-1.5-flash")
 
 # Load trained model and TF-IDF vectorizer for plagiarism detection
